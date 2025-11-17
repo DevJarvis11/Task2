@@ -217,18 +217,18 @@ Metrics stored in CSV/JSON under monitor/data. Anomalies logged in monitor/logs.
 
 ## 14. Individual contributions
 
-*Ankitha H R*
+*Ankitha H R, Pragati*
 
 * VM setup, netplan config
 * Implementation of SSH monitoring logic
 * Documentation & troubleshooting
 
-*Team Member 2*
+*Ankith M , Jeevan Shetty*
 
 * Dockerization, Compose config
 * Flask UI
 
-*Team Member 3*
+*Kiran D H*
 
 * Key deployment automation
 * Wireshark analysis
