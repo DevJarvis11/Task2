@@ -42,19 +42,6 @@ Performance & constraints emphasized in this project:
 ## 2. Architecture
 
 
-+----------------------+       +---------------------+
-| Host machine         |       | External dev machine|
-| - Docker             |       | (optional)          |
-| - Monitoring Container|<>====>| SSH access to host  |
-+-----------+----------+
-            |
-            | Docker network (bridge/host)
-            |
-+-----------v-----------+   +-----------+   +-----------+
-| VM1 (Ubuntu) eth0:10.0.1.11 | VM2 10.0.2.12 | VM3 10.0.3.13 |
-| sshd running                | sshd          | sshd          |
-+----------------------------+---------------+---------------+
-
 Monitoring container -> SSH -> VMs (collect metrics via remote commands / small agent)
 
 
